@@ -19,14 +19,14 @@ const Produto = sequelize.define("produto", {
             len: [3, 100]
         }
     },
-    salario: {
+    preco: {
         allowNull: false,
         type: Sequelize.DOUBLE(),
         validate: {
             len: [1, 999999]
         }
     },
-    dataNascimento: {
+    validade: {
         allowNull: false,
         type: Sequelize.DATE()
     },
