@@ -1,5 +1,5 @@
 {
-  "name": "backend_cliente",
+  "name": "avaliacao_backend",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -7,14 +7,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jeffsilva182/backend_cliente.git"
+    "url": "git+https://github.com/jeffsilva182/avaliacao_backend.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jeffsilva182/backend_cliente/issues"
+    "url": "https://github.com/jeffsilva182/avaliacao_backend/issues"
   },
-  "homepage": "https://github.com/jeffsilva182/backend_cliente#readme",
+  "homepage": "https://github.com/jeffsilva182/avaliacao_backend#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^8.6.0",

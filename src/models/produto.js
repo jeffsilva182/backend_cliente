@@ -5,7 +5,7 @@ const Sequelize = require('sequelize');
 const sequelize = require('../database/database.js');
  
 // Cria tabela no BD e seus campos
-const Cliente = sequelize.define("cliente", {
+const Produto = sequelize.define("produto", {
     id: {
         allowNull: false,
         autoIncrement: true,
@@ -37,4 +37,5 @@ const Cliente = sequelize.define("cliente", {
     }
 });
  
-module.exports = Cliente;
+module.exports = Produto;
+
